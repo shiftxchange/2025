@@ -1,0 +1,239 @@
+:root {
+    --padding: 4rem;
+    --border: hsl(0, 0%, 20%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.venue {
+    font-size: 80%;
+}
+
+.schedule-container {
+    padding: 20px;
+    overflow-x: auto;
+    /* Enables horizontal scrolling if content overflows */
+    overflow-y: hidden;
+
+    /* below fixed issue of overflowing of guide-slot_card */
+    /* white-space: nowrap;  */
+}
+
+.schedule-days {
+    display: flex;
+    flex-direction: row;
+    /* Ensures children are in a row */
+    flex-wrap: nowrap;
+    /* Prevents wrapping to the next line */
+    overflow-x: auto;
+    /* horizontal scrolling for days element */
+    overflow-y: hidden;
+}
+
+.schedule-day {
+    display: inline-block;
+    /* Keeps elements in a row and respects width */
+    margin: 0 10px;
+    min-width: 300px;
+    /* Ensures a minimum width for better readability */
+    vertical-align: top;
+    /* Aligns items at the top */
+}
+
+/* .schedule-stage {
+    margin-bottom: 20px;
+} */
+
+
+.schedule-stage {
+    /* display: grid; */
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 0rem;
+    /* min-width: 100vw; */
+}
+
+.schedule-stage::after {
+    content: "";
+    width: var(--padding);
+}
+
+.schedule-stage__title p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.schedule-stage_guide-container {
+    padding: 10px;
+}
+
+.guide-slot {
+    display: flex;
+    align-items: center;
+    /* Centers items vertically in the container */
+    margin-bottom: 15px;
+}
+
+.time-container {
+    flex: 0 0 100px;
+    padding-right: 10px;
+    /* Space between time and card */
+    display: inline-table;
+    align-items: center;
+    /* Vertically center */
+    justify-content: center;
+    /* Horizontally center */
+}
+
+
+.guide-slot_card-container {
+    flex: 1;
+    /* Takes the remaining space in the container */
+}
+
+.guide-slot {
+    color: gray;
+}
+
+.day-color {
+    color: gray;
+}
+
+.guide-slot_card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 0.8rem;
+    color: #DADEDF;
+    background: rgb(46, 26, 70, 0.85);
+    cursor: pointer;
+    overflow: hidden;
+    word-wrap: break-word;
+    /* Breaks long words to prevent overflow */
+    box-sizing: border-box;
+    /* Includes padding and border in width and height */
+}
+
+.guide-slot_card:hover {
+    background: rgb(46, 26, 70, 0.95);
+    border-color: #b3b3b3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+    .schedule-container {
+        overflow-x: auto;
+        /* Ensures horizontal scrolling */
+    }
+
+    .schedule-days {
+        flex-direction: row;
+    }
+
+    .schedule-day {
+        display: inline-block;
+        /* Keeps days in a row and respects width */
+        width: 300px;
+        /* sets day to fixed width */
+        box-sizing: border-box;
+        /* Includes padding and border in width */
+    }
+}
+
+/* .faq-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facilitator {
+    flex: 1;
+    text-align: center;
+}
+
+.engagement {
+    flex: 2;
+}
+
+.details {
+    flex: 3;
+} */
+
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    /* Stack rows vertically */
+}
+
+.row-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* Space between rows */
+}
+
+.facilitator {
+    flex: 1;
+    text-align: center;
+}
+
+.details {
+    flex: 2;
+}
+
+
+/* Start of FAQ Dropdown Styles */
+/* .faq-item {
+    margin-bottom: 1rem;
+}
+
+.faq-question {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 1rem;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.6rem;
+}
+
+.faq-answer {
+    padding: 0 1rem;
+    display: none;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.faq-question.active + .faq-answer {
+    display: block;
+} */
+/* End of FAQ Dropdown Styles */
