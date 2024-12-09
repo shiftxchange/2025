@@ -11,6 +11,7 @@ header.innerHTML = `
   <nav id="navbar" class="navbar">
     <ul>
       <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+      <li><a href="https://shiftxchange.github.io/2024/" target="_blank" rel="noopener noreferrer">Previous Edition</a></li>
       <li class="dropdown"><a href="#"><span>Venue</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
           <li><a href="venue.html">Conference Venue</a></li>
