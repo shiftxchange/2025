@@ -102,7 +102,7 @@
   
       /* table header */
       table thead tr:first-child th {
-        background: rgba(46, 26, 70, 0.9);
+        background: rgba(76, 175, 80, 0.9);
         color: #fff;
         text-align: center;
       }
