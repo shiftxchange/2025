@@ -53,6 +53,15 @@
     max-height: 450px;
     object-fit: cover;
   }
+
+  .banner-img_home {
+    object-fit: cover;
+    width: 90%;      /* Ensure the image takes up the full width */
+    height: auto;     /* Maintain aspect ratio */
+  }
+  #heroCarousel {
+        margin-top: 100px;  
+    }
   
   .banner-opacity {
     opacity: 0.5;
