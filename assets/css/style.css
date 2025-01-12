@@ -453,7 +453,7 @@ j .navbar .dropdown ul a i {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgb(76, 175, 80) 0%, rgb(126, 245, 124) 100%);
+  /* background: linear-gradient(0deg, rgb(76, 175, 80) 0%, rgb(126, 245, 124) 100%); */
   padding: 0;
 }
 
@@ -466,6 +466,8 @@ j .navbar .dropdown ul a i {
   position: relative;
   height: 35vh;
   padding-top: 60px;
+  /* to make it in front of waves */
+  /* z-index: 20; */
 }
 
 #heroTravel .carousel-container {
