@@ -11,7 +11,16 @@ header.innerHTML = `
   <nav id="navbar" class="navbar">
     <ul>
       <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-      <li><a href="https://shiftxchange.github.io/2024/" target="_blank" rel="noopener noreferrer">Previous Edition</a></li>
+      <li class="dropdown"><a href="#"><span>Calls & Submission</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li><a href="abstracts.html">Call for Abstracts</a></li>
+          <!--<li><a href="workshops.html">Call for workshops</a></li>--!>
+          <li><a href="submission.html">Submission Information</a></li>
+          <!--<li><a href="journals.html">Associated Journals</a></li>--!>
+        </ul>
+      </li>
+
+      <li><a href="https://shiftxchange.github.io/2024/" target="_blank" rel="noopener noreferrer">Previous Edition (2024)</a></li>
       <li class="dropdown"><a href="#"><span>Venue</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
           <li><a href="venue.html">Conference Venue</a></li>
