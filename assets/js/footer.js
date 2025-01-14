@@ -3,7 +3,9 @@ var footer = document.createElement('footer');
 footer.id = 'footer';
 footer.innerHTML = `
 <div class="container">
-  <h4>ShiftXchange: A Practice-Based Approach to Rethinking Leadership in the Digital Era</h4>
+
+  <h4>ShiftXchange 2025 </h4>
+  <h4>Leading with Purpose: Sustainable Practices for a Resilient Future </h4>
   <div class="social-links">
     <a href="https://x.com/MDX_Mtius" target="_blank" rel="noopener noreferrer" class="twitter"><i class="bx bi-twitter-x"></i></a>
     <a href="https://www.facebook.com/MiddlesexUniversityMauritius" target="_blank" rel="noopener noreferrer" class="facebook"><i class="bx bxl-facebook"></i></a>
