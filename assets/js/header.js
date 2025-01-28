@@ -5,8 +5,8 @@ header.className = 'fixed-top d-flex align-items-center ';
 header.innerHTML = `
 <div class="container d-flex align-items-center justify-content-between">
   <div class="logo">
-    <a href="index.html" class="logo-link"><img src="assets/img/logo/white_logo.png" alt="" class="img-fluid">
-      <img src="assets/img/logo/gray_logo.png" alt="" class="img-fluid hover-image"></a>
+    <a href="index.html" class="logo-link"><img src="assets/img/logo/white_logo_2025.png" alt="" class="img-fluid">
+      <img src="assets/img/logo/green_logo_2025.png" alt="" class="img-fluid hover-image"></a>
   </div>
   <nav id="navbar" class="navbar">
     <ul>
