@@ -504,7 +504,7 @@ j .navbar .dropdown ul a i {
 
 #heroTravel .carousel-control-prev,
 #heroTravel .carousel-control-next {
-  color: #2e1a46;
+  color: #4caf50;
 }
 
 #hero .carousel-control-next-icon,
@@ -744,7 +744,7 @@ section {
   color: rgb(76, 175, 80);
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #2e1a46;
+  border: 2px solid #4caf50;
 }
 
 .about .content .btn-learn-more:hover {
@@ -807,7 +807,7 @@ section {
   color: rgb(76, 175, 80);
   animation-delay: 0.8s;
   margin-top: 2px;
-  border: 2px solid #2e1a46;
+  border: 2px solid #4caf50;
 }
 
 .reg .content .btn-learn-more:hover {
@@ -1421,7 +1421,7 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #2e1a46;
+  font-family: #4caf50;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
