@@ -13,8 +13,8 @@ header.innerHTML = `
       <li><a class="nav-link scrollto" href="index.html">Home</a></li>
       <li class="dropdown"><a href="#"><span>Calls & Submission</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
-          <li><a href="abstracts.html">Call for Abstracts</a></li>
-          <li><a href="workshops.html">Call for workshops</a></li>
+          <li><a href="abstracts.html">Call for Submissions</a></li>
+          <!--<li><a href="workshops.html">Call for workshops</a></li>-->
           <li><a href="submission.html">Submission Information</a></li>
           <!--<li><a href="journals.html">Associated Journals</a></li>--!>
         </ul>
