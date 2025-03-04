@@ -20,6 +20,8 @@ header.innerHTML = `
         </ul>
       </li>
 
+      <li><a href="registration.html">Registration</a></li>
+
       <li><a href="https://shiftxchange.github.io/2024/" target="_blank" rel="noopener noreferrer">Previous Edition (2024)</a></li>
       <li class="dropdown"><a href="#"><span>Venue</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
