@@ -8,10 +8,6 @@
         <loc>https://shiftxchange.github.io/2025/index.html</loc>
         <priority>0.80</priority>
     </url>
-    <!-- <url>
-        <loc>https://shiftxchange.github.io/2025/programme.html</loc>
-        <priority>0.70</priority>
-    </url> -->
     <url>
         <loc>https://shiftxchange.github.io/2025/venue.html</loc>
         <priority>0.70</priority>
@@ -24,20 +20,12 @@
         <loc>https://shiftxchange.github.io/2025/submission.html</loc>
         <priority>0.60</priority>
     </url>
-    <!-- <url>
-        <loc>https://shiftxchange.github.io/2025/speakers.html</loc>
-        <priority>0.60</priority>
-    </url>
     <url>
         <loc>https://shiftxchange.github.io/2025/registration.html</loc>
         <priority>0.60</priority>
-    </url> -->
+    </url>
     <url>
         <loc>https://shiftxchange.github.io/2025/committees.html</loc>
         <priority>0.50</priority>
     </url>
-    <!-- <url>
-        <loc>https://shiftxchange.github.io/2025/journals.html</loc>
-        <priority>0.50</priority>
-    </url> -->
 </urlset>
