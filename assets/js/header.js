@@ -11,6 +11,13 @@ header.innerHTML = `
   <nav id="navbar" class="navbar">
     <ul>
       <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+       <li class="dropdown"><a href="#"><span>Programme</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <!-- <li><a href="speakers.html">Speakers</a></li> -->
+          <!-- <li><a href="programme.html">Full Programme</a></li> -->
+          <li><a href="assets/docs/SHIFTXchange Conference Programme 2025.pdf" target="_blank" rel="noopener noreferrer">Download Conference Programme</a></li>
+        </ul>
+      </li>
       <li class="dropdown"><a href="#"><span>Calls & Submission</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
           <li><a href="abstracts.html">Call for Submissions</a></li>
